@@ -8,7 +8,7 @@ A simple MVVM app with OpenWeather API
 
 ## UX design & How to use
 The UX design is focusing on simplicity, so the operation required is reduced to the miximum.
-
+#### Warning! Please remember to change the API secret key to your own one to make it work.
 When you open this app, it will fetch your location automatically. And then
 1. You can easily find current weather information of your location on the top of the main page as the default value.
 2. On the top-right corner, you can tap the add button to add new cities in NZ to your favirate.
