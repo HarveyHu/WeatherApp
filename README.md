@@ -38,11 +38,11 @@ WeatherApp shows you the current weather status (e.g. temperature, wind directio
 - Surprise/delight:
     - Good sense of handling sensitive data
     - Rx data flow
-    - MVVM structure
+    - MVVM architecture
     - Unit Test
-    - Simplicity UX design
+    - Simplicity of UX design
     - Good sense of using tools by the scale of the project
-## Future Improvement
+## Future Improvements
 - UI design
 - Progress spin view when loading
 - Replace to CoreData when project getting bigger
