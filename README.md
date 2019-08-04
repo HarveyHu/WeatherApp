@@ -11,9 +11,9 @@ The UX design is focusing on simplicity, so the operation required is reduced to
 #### Warning! Please remember to change the API secret key to your own to make it work.
 When you open this app, it will fetch your location automatically. And then:
 1. You can easily find current weather information of your location on the top of the main page as the default value.
-2. In the top-right corner, you can tap the 'add button' to add new cities in NZ to your favourite list.
+2. In the top-right corner, you can tap the 'add' button to add new cities in NZ to your favourite list.
 3. By selecting these tableViewCells, you can update the information on the top screen to the city you choose.
-4. Click the 'info button' on the right side of the cells, and you can get the 5-day weather forecast on the detail screen.
+4. Click the 'info' button on the right side of the cells, and you can get the 5-day weather forecast on the detail screen.
 
 ## Features
 #### Basics
