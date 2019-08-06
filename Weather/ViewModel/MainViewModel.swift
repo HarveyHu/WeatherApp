@@ -108,7 +108,7 @@ class MainViewModel {
     }
     
     func addCityToFavorite(cityName: String) {
-        if let allCities = self.permanentData.allCities, let index = allCities.firstIndex(where: { $0.name == cityName }) {
+        if let allCities = self.permanentData.allCities, let index = allCities.firstIndex(where: { $0.name.lowercased() == cityName.lowercased() }) {
             print("The first index = \(index)")
             print("jsonData:\(allCities[index])")
             var favCities = self.permanentData.favoriteCities
