@@ -24,8 +24,8 @@ class PermanentData {
                     let decoder = JSONDecoder()
                     let jsonData = try decoder.decode([LocalCity].self, from: data)
                     
-                    let allCities = jsonData.filter({ $0.country == "NZ" })
-                    self.allCities = allCities
+                    //let allCities = jsonData.filter({ $0.country == "NZ" })
+                    self.allCities = jsonData
                     
                     DispatchQueue.main.async {
                         completion()
