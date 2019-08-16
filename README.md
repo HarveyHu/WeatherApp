@@ -1,7 +1,8 @@
 # WeatherApp
-A simple MVVM app with OpenWeather API.
+A demo MVVM app with OpenWeather API.
 
 ## Introduction
+ - The best part of this demo is that it is not using any storyboard or xib for UI.🎉🎉🎉
  - This app is developed based on Rx data flow, implementing MVVM architecture with RxSwift.
  - All the business logic is separated in ViewModels.
  - It is using keychain to make the secret key safe.
@@ -46,4 +47,4 @@ WeatherApp shows you the current weather status (e.g. temperature, wind directio
 - UI design
 - Progress spin view when loading
 - Replace to CoreData when project getting bigger
-- Implement SwiftUI
+- Add more unit test cases in it
